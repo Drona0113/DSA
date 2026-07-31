@@ -15,7 +15,7 @@ class Solution {
             rev=rev*10+lastdigit;
             x=x/10;
         }
-        if(y==rev){
+        if (y==rev){
             return true;
         }
         else return false;
