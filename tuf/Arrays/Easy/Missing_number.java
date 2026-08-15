@@ -31,7 +31,7 @@ class Missing_number{
     }
     public static int findUsingXOR(int[] a,int N){
         int XOR1=0,XOR2=0;
-        for(int i=0;i<=N-2;i++){
+        for(int i=0;i<N-1;i++){
             XOR2=XOR2 ^ a[i];
             XOR1 = XOR1 ^ (i+1);
         }
